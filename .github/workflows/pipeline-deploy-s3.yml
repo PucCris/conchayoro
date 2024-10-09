@@ -34,4 +34,7 @@ jobs:
         path: index.html
     - run: ls -la
     - run: aws s3 cp index.html s3://$BUCKET_S3 --recursive --acl public-read
+<<<<<<< HEAD
 
+=======
+>>>>>>> 274f023332b4cf663c76d0cc6fd313c5e80ce971
