@@ -33,3 +33,4 @@ vars.AWS_REGION }}.amazonaws.com
         aws ecr get-login-password --region $AWS_REGION | \
         docker login --username AWS --password-stdin $REGISTRY_URL
     - run: docker push $REGISTRY_URL/$MODULE_FULLNAME:$TAG
+        REGISTRY_URL: ${{ ... }}.dkr.ecr.${{ .... }}.amazonaws.com
