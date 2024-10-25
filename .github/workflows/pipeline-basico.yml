@@ -1,7 +1,7 @@
 name: pipeline-basico
 on:
   workflow_dispatch
-    branches: [ "main" ]
+    
 jobs:
   build:
     runs-on: ubuntu-latest
